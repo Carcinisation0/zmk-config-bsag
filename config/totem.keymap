@@ -113,7 +113,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             bindings = <
          &kp N6     &kp N7           &kp N8     &kp N9           &kp N0    &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
          &kp N1     &kp N2           &kp N3     &kp N4           &kp N5    &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
-&kp ESC  &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS         &none     &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &gif
+&kp ESC  &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS         &none     &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
                                      &none      &kp RIGHT_SHIFT  &none     &none   &none                 &none
             >;
         }; 
