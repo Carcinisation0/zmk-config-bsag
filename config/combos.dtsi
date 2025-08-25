@@ -45,7 +45,7 @@ ZMK_COMBO(num_comma, &kp COMMA,            22 23,         NUM, COMBO_TERM_FAST)
 ZMK_COMBO(ctrl_y,    &kp LC(Y),            13 14,         BASE, COMBO_TERM_FAST)
 
 // --- Screen / Media combos ---
-ZMK_COMBO(screen,    &kp LS(LG(S)),        22 23 24,      SYM, COMBO_TERM_SLOW)
+ZMK_COMBO(screen, &sk LS &sk LG &kp S, 22 23 24, SYM, COMBO_TERM_SLOW)
 ZMK_COMBO(vol_down,  &kp C_VOL_DN,         1 2,           SYM, COMBO_TERM_FAST)
 ZMK_COMBO(vol_up,    &kp C_VOL_UP,         3 2,           SYM, COMBO_TERM_FAST)
 
