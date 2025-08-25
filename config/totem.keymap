@@ -11,11 +11,12 @@
 #define TODO ___
 #define ___ &trans
 
-#define BASE 0
-#define NAV 1
-#define NUM 2
-#define FUN 3
-#define UTIL 4
+#define base 0
+#define sym 1
+#define game 2
+#define gameplus 3
+#define nav 4
+
 
 //#include "combos.dtsi"
 
@@ -240,7 +241,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
                                   &trans  &mo 4  &kp SPACE    &trans  &trans          &trans
             >;
         };
-        game+ {
+        gameplus {
             bindings = <
         &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
         &kp LEFT_ALT  &kp SLASH     &kp K   &kp Y   &kp V           &trans  &trans  &trans  &trans  &trans
