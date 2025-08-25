@@ -256,25 +256,6 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
                                          &trans            &trans         &trans               &mo 0          &kp KP_N0     &trans
             >;
         };  
-
-        fun {
-            bindings = <
-        &kp F1        &kp F2        &kp F3          &kp F4            &kp F5      &kp F6    &kp F7             &kp F8           &kp F9        &kp F10
-        &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp F12     &kp F11   &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp LEFT_ALT  &kp RIGHT_WIN
-&trans  &trans        &trans        &trans          &trans            &kp CAPS    &kp CAPS  &trans             &trans           &trans        &trans         &trans
-                                    &trans          &trans            &trans      &trans    &trans             &trans
-            >;
-        };
-
-        mouse {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &mkp MB4        &mkp MB3        &mkp MB5         &trans           &kp ESC
-                        &trans  &trans  &trans    &msc SCRL_UP    &msc SCRL_DOWN  &trans
-            >;
-        };
-
     };
 };
     
