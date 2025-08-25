@@ -50,7 +50,7 @@ ZMK_COMBO(ctrl_y,    &kp LC(Y),            13 14,         BASE, COMBO_TERM_FAST)
 
 
 // --- Screen / Media combos ---e
-ZMK_COMBO(ff5,     &kp F5,                15 16,       BASE, COMBO_TERM_SLOW)
+
 
 // --- Mouse layer combo ---
 ZMK_COMBO(mouse,     &mo 6,                3 2 1 0,       BASE, COMBO_TERM_SLOW)
