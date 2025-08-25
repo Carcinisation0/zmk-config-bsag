@@ -15,51 +15,42 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 
-// Make sure that home row combos are tap only so that you can chord HRMs
-// #define HRC_LPAR   &hmr_lpar RS(RGUI) 0
-// #define HRC_RPAR   &hmr_rpar LA(RGUI) 0
 
-// Left hand vertical combos //
-// Between top and home row
-ZMK_COMBO(at,    &kp AT,        LT3 LM3,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(hash,  &kp HASH,      LT2 LM2,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(dllr,  &kp DLLR,      LT1 LM1,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(prcnt, &kp PRCNT,     LT0 LM0,     BASE NAV NUM, COMBO_TERM_SLOW)
+// --- Backspace / Delete combos ---
+ZMK_COMBO(bspc1,     &kp BACKSPACE,        12 13,         BASE, COMBO_TERM_FAST)
+ZMK_COMBO(del1,      &kp DEL,              11 12,         BASE, COMBO_TERM_FAST)
+ZMK_COMBO(del_word1, &kp LC(BACKSPACE),    11 12 13,      BASE, COMBO_TERM_SLOW)
 
-// Between home and bottom row
-ZMK_COMBO(grave, &kp GRAVE,     LM3 LB3,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(bslh,  &kp BSLH,      LM2 LB2,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(equal, &kp EQUAL,     LM1 LB1,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(tilde, &kp TILDE,     LM0 LB0,     BASE NAV NUM, COMBO_TERM_SLOW)
-
-// Horizontal combos
-ZMK_COMBO(cut,   &kp LG(X),     LB3 LB1,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(copy,  &kp LG(C),     LB3 LB2,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(paste, &kp LG(V),     LB2 LB1,     BASE NAV NUM, COMBO_TERM_FAST)
-
-// Right hand vertical combos
-// Between top and home row
-ZMK_COMBO(caret, &kp CARET,     RT0 RM0,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(plus,  &kp PLUS,      RT1 RM1,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(star,  &kp STAR,      RT2 RM2,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(amps,  &kp AMPS,      RT3 RM3,     BASE NAV NUM, COMBO_TERM_SLOW)
-
-// Between home and bottom row
-ZMK_COMBO(under, &kp UNDER,     RM0 RB0,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(minus, &kp MINUS,     RM1 RB1,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(fslh,  &kp FSLH,      RM2 RB2,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(pipe,  &kp PIPE,      RM3 RB3,     BASE NAV NUM, COMBO_TERM_SLOW)
-
-// Horizontal combos
-ZMK_COMBO(lbkt,  &kp LBKT,      RT1 RT2,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(rbkt,  &kp RBKT,      RT2 RT3,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(lpar,  &kp LPAR,      RM1 RM2,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(rpar,  &kp RPAR,      RM2 RM3,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(lbrc,  &kp LBRC,      RB1 RB2,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(rbrc,  &kp RBRC,      RB2 RB3,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(lt,    &kp LT,        RM0 RM1,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(gt,    &kp GT,        RM3 RM4,     BASE NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(bspc2,     &kp BACKSPACE,        16 17,         BASE, COMBO_TERM_FAST)
+ZMK_COMBO(del2,      &kp DEL,              18 17,         BASE, COMBO_TERM_FAST)
+ZMK_COMBO(del_word2, &kp LC(BACKSPACE),    16 17 18,      BASE, COMBO_TERM_SLOW)
 
 
-// caps word on index fingers
-ZMK_COMBO(capsw, &caps_word,    LM1 RM1,     BASE NAV NUM, COMBO_TERM_FAST)
+// --- Enter combos ---
+ZMK_COMBO(enter1,    &kp ENTER,            13 12 11 10,   BASE NAV, COMBO_TERM_SLOW)
+ZMK_COMBO(enter2,    &kp ENTER,            16 17 18 19,   BASE NAV, COMBO_TERM_SLOW)
+ZMK_COMBO(shift_enter, &kp LS(ENTER),      14 13 12 11,   BASE, COMBO_TERM_SLOW)
+
+
+// --- Quote / Apostrophe combos ---
+ZMK_COMBO(apos,      &kp APOS,             6 7,           BASE NAV, COMBO_TERM_FAST)
+ZMK_COMBO(quote,     &kp DOUBLE_QUOTES,    8 7,           BASE NAV, COMBO_TERM_FAST)
+
+
+// --- Numbers / punctuation combos ---
+ZMK_COMBO(num_dot,   &kp DOT,              23 24,         NUM, COMBO_TERM_FAST)
+ZMK_COMBO(num_comma, &kp COMMA,            22 23,         NUM, COMBO_TERM_FAST)
+
+
+// --- Control combos ---
+ZMK_COMBO(ctrl_y,    &kp LC(Y),            13 14,         BASE, COMBO_TERM_FAST)
+
+
+// --- Screen / Media combos ---
+ZMK_COMBO(screen,    &kp LG(LS(S)),        22 23 24,      SYM, COMBO_TERM_SLOW)
+ZMK_COMBO(vol_down,  &kp C_VOL_DN,         1 2,           SYM, COMBO_TERM_FAST)
+ZMK_COMBO(vol_up,    &kp C_VOL_UP,         3 2,           SYM, COMBO_TERM_FAST)
+
+
+// --- Mouse layer combo ---
+ZMK_COMBO(mouse,     &mo 6,                3 2 1 0,       BASE, COMBO_TERM_SLOW)
