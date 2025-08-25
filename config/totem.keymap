@@ -20,6 +20,14 @@
 #define mouse 6
 
 
+// ---- mouse ----
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
+#include <dt-bindings/zmk/pointing.h>
+
+
+
 //#include "combos.dtsi"
 
 // navigation bindings for back/forward and prev tab/next tab
