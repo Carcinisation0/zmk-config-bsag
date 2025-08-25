@@ -21,8 +21,4 @@
 
 // Left hand vertical combos //
 // Between top and home row
-ZMK_COMBO(at,    &kp AT,        LT3 LM3,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(hash,  &kp HASH,      LT2 LM2,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(dllr,  &kp DLLR,      LT1 LM1,     BASE NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(prcnt, &kp PRCNT,     LT0 LM0,     BASE NAV NUM, COMBO_TERM_SLOW)
-
+ZMK_COMBO(bspc1,    &kp BACKSPACE,        12 13,     BASE, COMBO_TERM_SLOW)
