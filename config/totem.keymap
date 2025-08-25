@@ -272,10 +272,10 @@ funkcje {
         mouse {
     mouse {
         bindings = <
-    &trans  &trans  &trans  &trans  &trans    &trans          &mkp LCLK       &mmv MOVE_UP 100    &mkp RCLK        &trans
-    &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT 1 &mmv MOVE_LEFT 100  &mmv MOVE_DOWN 100  &mmv MOVE_RIGHT 100  &msc SCRL_RIGHT 1
-    &trans  &trans  &trans  &trans  &trans    &trans          &trans          &mkp MB4        &mkp MB3        &mkp MB5         &trans           &kp ESC
-                        &trans  &trans  &trans    &msc SCRL_UP 1    &msc SCRL_DOWN 1  &trans
+    &trans  &trans  &trans  &trans  &trans    &trans          &trans          &mmv MOVE_UP        &trans          &trans
+    &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans              &trans          &trans
+    &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans              &trans          &trans          &trans           &trans
+                        &trans  &trans  &trans    &trans          &trans          &trans
         >;
     };
 
