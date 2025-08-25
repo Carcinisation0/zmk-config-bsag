@@ -36,8 +36,8 @@ ZMK_COMBO(shift_enter, &kp LS(ENTER),      18 19,         nav, COMBO_TERM_SLOW)
 
 
 // --- Quote / Apostrophe combos ---
-ZMK_COMBO(apos,      &kp APOS,             6 7,           BASE sym, COMBO_TERM_FAST)
-ZMK_COMBO(quote,     &kp DOUBLE_QUOTES,    8 7,           BASE sym, COMBO_TERM_FAST)
+ZMK_COMBO(apos,      &kp APOS,             6 7,           BASE, COMBO_TERM_FAST)
+ZMK_COMBO(quote,     &kp DOUBLE_QUOTES,    8 7,           BASE, COMBO_TERM_FAST)
 
 
 // --- Numbers / punctuation combos ---
