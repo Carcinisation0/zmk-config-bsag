@@ -26,6 +26,8 @@
 // hyper and meh keys
 #define HYP LS(LC(LA(LGUI)))
 #define MEH LS(LC(LALT))
+#define SCRSHOT LG(LS(S))
+
 
 /* ------------------------ general config ----------------------- */
 
