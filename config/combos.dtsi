@@ -19,6 +19,11 @@
 // #define HRC_LPAR   &hmr_lpar RS(RGUI) 0
 // #define HRC_RPAR   &hmr_rpar LA(RGUI) 0
 
-// Left hand vertical combos //
-// Between top and home row
-ZMK_COMBO(bspc1,    &kp BACKSPACE,        12 13,     BASE, COMBO_TERM_SLOW)
+// delete combos //
+ZMK_COMBO(bspc1,    &kp BACKSPACE,         12 13,         BASE, COMBO_TERM_SLOW)
+ZMK_COMBO(del1,      &kp DEL,              11 12,         BASE, COMBO_TERM_FAST)
+ZMK_COMBO(del_word1, &kp LC(BACKSPACE),    11 12 13,      BASE, COMBO_TERM_SLOW)
+
+ZMK_COMBO(bspc2,     &kp BACKSPACE,        16 17,         BASE, COMBO_TERM_FAST)
+ZMK_COMBO(del2,      &kp DEL,              18 17,         BASE, COMBO_TERM_FAST)
+ZMK_COMBO(del_word2, &kp LC(BACKSPACE),    16 17 18,      BASE, COMBO_TERM_SLOW)
