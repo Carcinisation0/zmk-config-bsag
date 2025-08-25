@@ -222,6 +222,18 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <3 2 1 0>;
             layers = <0>;
         };
+
+        fn_layer_l {
+            bindings = <&sl 5>;
+            key-positions = <13 34>;
+            layers = <0>;
+        };
+
+        fn_layer_r {
+            bindings = <&sl 5>;
+            key-positions = <16 35>;
+            layers = <0>;
+        };
     };
 
 
@@ -271,9 +283,9 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 
 funkcje {
             bindings = <
+        &trans        &trans        &trans          &kp F11           &trans      &trans    &kp F12            &trans          &trans       &trans
         &kp F1        &kp F2        &kp F3          &kp F4            &kp F5      &kp F6    &kp F7             &kp F8           &kp F9        &kp F10
-        &kp LGUI  &kp LALT  &kp LCTRL &kp LSHFT  &kp F12     &kp F11   &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI
-&trans  &trans        &trans        &trans          &trans            &kp CAPS    &kp CAPS  &trans             &trans           &trans        &trans         &trans
+&trans  &trans        &trans        &trans          &kp CAPS          &trans      &trans    &kp CAPS           &trans           &trans        &trans         &trans
                                     &trans          &trans            &trans      &trans    &trans             &trans
             >;
         };
