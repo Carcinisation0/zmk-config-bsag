@@ -23,3 +23,22 @@
 ZMK_COMBO(bspc1,    &kp BACKSPACE,         12 13,         BASE, COMBO_TERM_SLOW)
 ZMK_COMBO(del1,      &kp DEL,              11 12,         BASE, COMBO_TERM_FAST)
 ZMK_COMBO(del_word1, &kp LC(BACKSPACE),    11 12 13,      BASE, COMBO_TERM_SLOW)
+
+// --- Enter combos ---
+ZMK_COMBO(enter1,    &kp ENTER,            13 12 11 10,   BASE NAV, COMBO_TERM_SLOW)
+ZMK_COMBO(enter2,    &kp ENTER,            16 17 18 19,   BASE NAV, COMBO_TERM_SLOW)
+ZMK_COMBO(shift_enter, &kp LS(ENTER),      14 13 12 11,   BASE, COMBO_TERM_SLOW)
+
+
+// --- Quote / Apostrophe combos ---
+ZMK_COMBO(apos,      &kp APOS,             6 7,           BASE NAV, COMBO_TERM_FAST)
+ZMK_COMBO(quote,     &kp DOUBLE_QUOTES,    8 7,           BASE NAV, COMBO_TERM_FAST)
+
+
+// --- Numbers / punctuation combos ---
+ZMK_COMBO(num_dot,   &kp DOT,              23 24,         NUM, COMBO_TERM_FAST)
+ZMK_COMBO(num_comma, &kp COMMA,            22 23,         NUM, COMBO_TERM_FAST)
+
+
+// --- Control combos ---
+ZMK_COMBO(ctrl_y,    &kp LC(Y),            13 14,         BASE, COMBO_TERM_FAST)
