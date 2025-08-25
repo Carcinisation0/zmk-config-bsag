@@ -7,6 +7,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+
+// --- mouse ----
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
+#include <dt-bindings/zmk/pointing.h>
+
+
 #define XXX &none
 #define TODO ___
 #define ___ &trans
@@ -17,7 +25,7 @@
 #define FUN 3
 #define UTIL 4
 
-#include "combos.dtsi"
+//#include "combos.dtsi"
 
 // navigation bindings for back/forward and prev tab/next tab
 #define BACK &kp LG(LBKT)
