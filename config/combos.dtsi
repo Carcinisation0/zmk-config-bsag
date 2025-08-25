@@ -20,3 +20,6 @@
 // #define HRC_RPAR   &hmr_rpar LA(RGUI) 0
 
 // --- Enter combos ---
+ZMK_COMBO(entrl,    &kp ENTER,        11 12 13 14,     base sym, COMBO_TERM_SLOW)
+ZMK_COMBO(entrr,    &kp ENTER,        16 17 18 19,     base sym, COMBO_TERM_SLOW)
+ZMK_COMBO(entrs,    &kp RS(ENTER),    13 14,           nav, COMBO_TERM_SLOW)
