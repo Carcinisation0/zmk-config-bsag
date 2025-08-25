@@ -32,7 +32,7 @@ ZMK_COMBO(del_word2, &kp LC(BACKSPACE),    16 17 18,      BASE, COMBO_TERM_SLOW)
 // --- Enter combos ---
 ZMK_COMBO(enter1,    &kp ENTER,            13 12 11 10,   BASE sym, COMBO_TERM_SLOW)
 ZMK_COMBO(enter2,    &kp ENTER,            16 17 18 19,   BASE sym, COMBO_TERM_SLOW)
-ZMK_COMBO(shift_enter, &kp LS(ENTER),      18 19,         bnav, COMBO_TERM_SLOW)
+ZMK_COMBO(shift_enter, &kp LS(ENTER),      18 19,         nav, COMBO_TERM_SLOW)
 
 
 // --- Quote / Apostrophe combos ---
