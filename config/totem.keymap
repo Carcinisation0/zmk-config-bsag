@@ -17,7 +17,7 @@
 #define FUN 3
 #define UTIL 4
 
-#include "combos.dtsi"
+//#include "combos.dtsi"
 
 // navigation bindings for back/forward and prev tab/next tab
 #define BACK &kp LG(LBKT)
@@ -100,6 +100,119 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 )
 
 / {
+
+    combos {
+        compatible = "zmk,combos";
+
+        bspc1 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <12 13>;
+            layers = <0>;
+        };
+
+        del1 {
+            bindings = <&kp DEL>;
+            key-positions = <11 12>;
+            layers = <0>;
+        };
+
+        del_word1 {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <11 12 13>;
+            layers = <0>;
+        };
+
+        bspc2 {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        del2 {
+            bindings = <&kp DEL>;
+            key-positions = <18 17>;
+            layers = <0>;
+        };
+
+        del_word2 {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <16 17 18>;
+            layers = <0>;
+        };
+
+        enter1 {
+            bindings = <&kp ENTER>;
+            key-positions = <13 12 11 10>;
+            layers = <0 1>;
+        };
+
+        enter2 {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17 18 19>;
+            layers = <0 1>;
+        };
+
+        apos {
+            bindings = <&kp APOS>;
+            key-positions = <6 7>;
+            layers = <0 1>;
+        };
+
+        quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <8 7>;
+            layers = <0 1>;
+        };
+
+        num_dot {
+            bindings = <&kp DOT>;
+            key-positions = <23 24>;
+            layers = <1>;
+        };
+
+        num_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <22 23>;
+            layers = <1>;
+        };
+
+        ctrl_y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        shift_enter {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <14 13 12 11>;
+            layers = <0>;
+        };
+
+        screen {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <22 23 24>;
+            layers = <4>;
+        };
+
+        vol_down {
+            bindings = <&kp C_VOL_DN>;
+            key-positions = <1 2>;
+            layers = <4>;
+        };
+
+        vol_up {
+            bindings = <&kp C_VOL_UP>;
+            key-positions = <3 2>;
+            layers = <4>;
+        };
+
+        mouse {
+            bindings = <&mo 6>;
+            key-positions = <3 2 1 0>;
+        };
+    };
+
+
 // TODO: Add hyper key as HRM
     keymap {
         compatible = "zmk,keymap";
