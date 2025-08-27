@@ -118,37 +118,37 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         bspc1 {
             bindings = <&kp BACKSPACE>;
             key-positions = <12 13>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         del1 {
             bindings = <&kp DEL>;
             key-positions = <11 12>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         del_word1 {
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <11 12 13>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         bspc2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         del2 {
             bindings = <&kp DEL>;
             key-positions = <18 17>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         del_word2 {
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <16 17 18>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         enter1 {
