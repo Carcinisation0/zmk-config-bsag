@@ -257,7 +257,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             &kp Q         &kp W         &kp F            &kp P            &kp B              &kp J         &kp L              &kp U            &kp Y         &kp SEMI
             &hml LGUI A  &hml LALT R   &hml LCTRL S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RCTRL E     &hmr LALT I   &hmr RGUI O
 &lt 5 TAB   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     &kp TAB
-                                       &kp LCTRL         &mo 4            &hml mo1 SPACE        &mo 1         &kp RALT           &sl 5
+                                       &kp LCTRL         &mo 4            &lt 1 SPACE        &mo 1         &kp RALT           &sl 5
             >;
         };
         sym { 
