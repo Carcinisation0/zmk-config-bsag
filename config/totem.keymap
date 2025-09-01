@@ -115,42 +115,6 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
     combos {
         compatible = "zmk,combos";
 
-        bspc1 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <12 13>;
-            layers = <0 1>;
-        };
-
-        del1 {
-            bindings = <&kp DEL>;
-            key-positions = <11 12>;
-            layers = <0 1>;
-        };
-
-        del_word1 {
-            bindings = <&kp LC(BACKSPACE)>;
-            key-positions = <11 12 13>;
-            layers = <0 1>;
-        };
-
-        bspc2 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <16 17>;
-            layers = <0 1>;
-        };
-
-        del2 {
-            bindings = <&kp DEL>;
-            key-positions = <18 17>;
-            layers = <0 1>;
-        };
-
-        del_word2 {
-            bindings = <&kp LC(BACKSPACE)>;
-            key-positions = <16 17 18>;
-            layers = <0 1>;
-        };
-
         enter1 {
             bindings = <&kp ENTER>;
             key-positions = <13 12 11 10>;
@@ -264,7 +228,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             bindings = <
          &kp N6     &kp N7           &kp N8     &kp N9           &kp N0     &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
          &kp N1     &kp N2           &kp N3     &kp N4           &kp N5     &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
-&kp ESC  &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS         &kp EQUAL  &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
+&none    &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS         &kp EQUAL  &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
                                      &none      &kp RIGHT_SHIFT  &none      &none   &none                 &none
             >;
         }; 
