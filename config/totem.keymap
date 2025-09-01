@@ -115,19 +115,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
     combos {
         compatible = "zmk,combos";
 
-        enter1 {
-            bindings = <&kp ENTER>;
-            key-positions = <13 12 11 10>;
-            layers = <0 1>;
-        };
-
-        enter2 {
-            bindings = <&kp ENTER>;
-            key-positions = <16 17 18 19>;
-            layers = <0 1>;
-        };
-
-        apos {
+apos {
             bindings = <&kp APOS>;
             key-positions = <6 7>;
             layers = <0 1>;
@@ -141,13 +129,13 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 
         num_dot {
             bindings = <&kp DOT>;
-            key-positions = <23 24>;
+            key-positions = <3 2>;
             layers = <1>;
         };
 
         num_comma {
             bindings = <&kp COMMA>;
-            key-positions = <22 23>;
+            key-positions = <1 2>;
             layers = <1>;
         };
 
@@ -157,59 +145,50 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <0>;
         };
 
-        shift_enter {
-            bindings = <&kp LS(ENTER)>;
-            key-positions = <14 13 12 11>;
-            layers = <0>;
-        };
-
         screen {
             bindings = <&kp LG(LS(S))>;
             key-positions = <22 23 24>;
             layers = <4>;
         };
 
-        vol_down {
-            bindings = <&kp C_VOL_DN>;
-            key-positions = <1 2>;
-            layers = <4>;
-        };
-
-        vol_up {
-            bindings = <&kp C_VOL_UP>;
-            key-positions = <3 2>;
-            layers = <4>;
-        };
-
         mouse {
             bindings = <&mo 6>;
             key-positions = <3 2 1 0>;
-            layers = <0>;
         };
 
-        fn_layer_l {
-            bindings = <&sl 5>;
-            key-positions = <13 34>;
-            layers = <0>;
-        };
-
-        fn_layer_r {
-            bindings = <&sl 5>;
-            key-positions = <16 35>;
+        escp {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
             layers = <0>;
         };
 
         ctrl_f {
             bindings = <&kp LC(F)>;
             key-positions = <1 2>;
+        };
+
+        fun_left {
+            bindings = <&sl 5>;
+            key-positions = <13 34>;
+        };
+
+        fun_right {
+            bindings = <&sl 5>;
+            key-positions = <35 16>;
+        };
+
+        ctrl_z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 24>;
             layers = <0>;
         };
 
-        sym_layer {
-            bindings = <&mo 1>;
-            key-positions = <33 34>;
-            layers = <0>;
+        enter_left {
+            bindings = <&kp ENTER>;
+            key-positions = <10 11 12 13>;
+            layers = <0 1>;
         };
+
     };
 
 
