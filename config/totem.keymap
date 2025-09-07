@@ -115,17 +115,63 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
     combos {
         compatible = "zmk,combos";
 
+//    ============ base ============
+
         apos {
             bindings = <&kp APOS>;
             key-positions = <6 7>;
-            layers = <0 1>;
+            layers = <0>;
         };
 
         quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <8 7>;
+            layers = <0>;
+        };
+
+      mouse {
+            bindings = <&mo 6>;
+            key-positions = <3 2 1 0>;
+        };
+
+        escp {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+
+        enter_left {
+            bindings = <&kp ENTER>;
+            key-positions = <10 11 12 13>;
             layers = <0 1>;
         };
+
+        enter_right {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17 18 19>;
+            layers = <0 1>;
+        };
+
+//      -------- control ---------
+
+        ctrl_y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        ctrl_f {
+            bindings = <&kp LC(F)>;
+            key-positions = <1 2>;
+        };
+
+     ctrl_z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 24>;
+            layers = <0>;
+        };
+
+//    ============ sym  ============
 
         num_dot {
             bindings = <&kp DOT>;
@@ -139,11 +185,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <1>;
         };
 
-        ctrl_y {
-            bindings = <&kp LC(Y)>;
-            key-positions = <13 14>;
-            layers = <0>;
-        };
+//    ============ nav  ============
 
         screen {
             bindings = <&kp LG(LS(S))>;
@@ -151,23 +193,11 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <4>;
         };
 
-        mouse {
-            bindings = <&mo 6>;
-            key-positions = <3 2 1 0>;
-        };
+//    ============ game ============
 
-        escp {
-            bindings = <&kp ESC>;
-            key-positions = <0 1>;
-            layers = <0>;
-        };
+//    ========== general  ==========
 
-        ctrl_f {
-            bindings = <&kp LC(F)>;
-            key-positions = <1 2>;
-        };
-
-        fun_left {
+          fun_left {
             bindings = <&sl 5>;
             key-positions = <13 34>;
         };
@@ -177,17 +207,17 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <35 16>;
         };
 
-        ctrl_z {
-            bindings = <&kp LC(Z)>;
-            key-positions = <25 24>;
-            layers = <0>;
-        };
+    
 
-        enter_left {
-            bindings = <&kp ENTER>;
-            key-positions = <10 11 12 13>;
-            layers = <0 1>;
-        };
+
+
+  
+
+
+
+   
+
+
 
     };
 
