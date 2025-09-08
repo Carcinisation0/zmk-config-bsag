@@ -156,18 +156,37 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 
         ctrl_y {
             bindings = <&kp LC(Y)>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+       ctrl_f {
+            bindings = <&kp LC(F)>;
+            key-positions = <1 2>;
+            layers = <0>;
+        };
+
+        ctrl_z {
+            bindings = <&kp LC(Z)>;
             key-positions = <13 14>;
             layers = <0>;
         };
 
-        ctrl_f {
-            bindings = <&kp LC(F)>;
-            key-positions = <1 2>;
+        ctrl_c {
+            bindings = <&kp LC(C)>;
+            key-positions = <22 23>;
+            layers = <0>;
         };
 
-     ctrl_z {
-            bindings = <&kp LC(Z)>;
-            key-positions = <25 24>;
+        ctrl_v {
+            bindings = <&kp LC(V)>;
+            key-positions = <23 24>;
+            layers = <0>;
+        };
+
+        ctrl_x {
+            bindings = <&kp LC(X)>;
+            key-positions = <21 22>;
             layers = <0>;
         };
 
@@ -185,6 +204,30 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <1>;
         };
 
+        num_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <12 13>;
+            layers = <1>;
+        };
+
+        num_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <11 12>;
+            layers = <1>;
+        };
+
+        num_mult {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <23 24>;
+            layers = <1>;
+        };
+
+        num_div {
+            bindings = <&kp SLASH>;
+            key-positions = <22 23>;
+            layers = <1>;
+        };
+
 //    ============ nav  ============
 
         screen {
@@ -194,6 +237,24 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         };
 
 //    ============ game ============
+
+        gm_n1 {
+            bindings = <&kp N1>;
+            key-positions = <1 2>;
+            layers = <2>;
+        };
+
+        gm_n2 {
+            bindings = <&kp N2>;
+            key-positions = <2 3>;
+            layers = <2>;
+        };
+
+        gm_n3 {
+            bindings = <&kp N3>;
+            key-positions = <1 2 3>;
+            layers = <2>;
+        };
 
 //    ========== general  ==========
 
@@ -206,18 +267,6 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             bindings = <&sl 5>;
             key-positions = <35 16>;
         };
-
-    
-
-
-
-  
-
-
-
-   
-
-
 
     };
 
@@ -235,9 +284,9 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         };
         sym { 
             bindings = <
-         &kp N6     &kp N7           &kp N8     &kp N9           &kp N0     &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
-         &kp N1     &kp N2           &kp N3     &kp N4           &kp N5     &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
-&none    &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS         &kp EQUAL  &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
+         &kp KP_MULTIPLY  &kp N7       &kp N8     &kp N9         &kp PLUS   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
+         &kp N0           &kp N4       &kp N5     &kp N6         &kp MINUS  &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
+&none    &kp SLASH        &kp N1       &kp N2     &kp N3         &kp EQUAL  &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
                                      &none      &kp RIGHT_SHIFT  &none      &none   &none                 &none
             >;
         }; 
