@@ -142,13 +142,13 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 
         enter_left {
             bindings = <&kp ENTER>;
-            key-positions = <10 11 12 13>;
+            key-positions = <11 12 13>;
             layers = <0 1>;
         };
 
         enter_right {
             bindings = <&kp ENTER>;
-            key-positions = <16 17 18 19>;
+            key-positions = <16 17 18>;
             layers = <0 1>;
         };
 
@@ -279,16 +279,16 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
             &hml LGUI A  &hml LALT R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr LALT I   &hmr RGUI O
 &lt 5 TAB   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     &kp TAB
-                                       &kp LCTRL         &mo 4            &lt 1 SPACE        &mo 1         &kp RALT           &sl 5
+                                       &kp LCTRL         &mo 4            &lt 1 SPACE        &kp RSHFT     &kp RALT           &sl 5
             >;
         };
         sym { 
             bindings = <
-         &kp KP_MULTIPLY  &kp N7       &kp N8     &kp N9         &kp PLUS   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
-         &kp N0           &kp N4       &kp N5     &kp N6         &kp MINUS  &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
-&none    &kp SLASH        &kp N1       &kp N2     &kp N3         &kp EQUAL  &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
-                                     &none      &kp RIGHT_SHIFT  &none      &none   &none                 &none
-            >;
+         &kp KP_MULTIPLY  &kp N7       &kp N8     &kp N9         &kp PLUS   &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
+         &kp N0           &kp N4       &kp N5     &kp N6         &kp MINUS  &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
+&none    &kp SLASH        &kp N1       &kp N2     &kp N3         &kp EQUAL  &none     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
+                                     &none        &kp RSHFT  &none      &kp RSHFT     &none                 &none
+            >; 
         }; 
         game {
             bindings = <
@@ -300,7 +300,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         };
         gameplus {
             bindings = <
-        &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
+        &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
         &kp LEFT_ALT  &kp SLASH     &kp K   &kp Y   &kp V           &trans  &trans  &trans  &trans  &trans
 &kp F3  &kp L         &kp I         &kp T   &kp N5  &kp N6          &trans  &trans  &trans  &trans  &trans  &trans
                                     &kp J   &kp G   &kp M           &trans  &trans  &trans
