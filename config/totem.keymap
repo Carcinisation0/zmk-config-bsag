@@ -274,7 +274,8 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 // TODO: Add hyper key as HRM
     keymap {
         compatible = "zmk,keymap";
-        base { // ColemakDHm
+
+base { // ColemakDHm
             bindings = <
             &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
             &hml LGUI A  &hml LALT R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr LALT I   &hmr RGUI O
@@ -282,7 +283,9 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
                                        &kp LCTRL         &mo 4            &lt 1 SPACE        &kp RSHFT     &kp RALT           &sl 5
             >;
         };
-        sym { 
+
+
+sym { 
             bindings = <
          &kp KP_MULTIPLY  &kp N9       &kp N8     &kp N7         &kp PLUS   &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
          &kp N3           &kp N2       &kp N1     &kp N0         &kp MINUS  &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
@@ -290,15 +293,19 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
                                      &none        &kp RSHFT  &none      &kp RSHFT     &none                 &none
             >; 
         }; 
-        game {
+
+
+game {
             bindings = <
          &kp TAB           &kp Q  &kp W   &kp E  &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
          &kp RIGHT_SHIFT   &kp A  &kp S   &kp D  &sl 3        &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER
 &kp ESC  &kp LEFT_CONTROL  &kp Z  &kp X   &kp C  &kp F        &trans  &trans          &trans        &trans     &trans     &to 0
-                                  &trans  &mo 4  &kp SPACE    &trans  &trans          &trans
+                                  &mo 0  &mo 4  &kp SPACE    &to 0  &to 0          &to 0
             >;
         };
-        gameplus {
+
+
+gameplus {
             bindings = <
         &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
         &kp LEFT_ALT  &kp SLASH     &kp K   &kp Y   &kp V           &trans  &trans  &trans  &trans  &trans
@@ -306,7 +313,9 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
                                     &kp J   &kp G   &kp M           &trans  &trans  &trans
             >;
         };
-        nav {
+
+
+nav {
             bindings = <
          &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    &kp RBRC       &kp LG(L)     &kp KP_N8        &kp KP_N9  &to 6
          &kp ENTER         &kp LEFT      &kp DOWN          &kp RIGHT      &kp PAGE_UP          &kp LS(ENTER)  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp KP_N6  &kp LS(ENTER)
