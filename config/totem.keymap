@@ -140,6 +140,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <0>;
         };
 
+/*
         enter_left {
             bindings = <&kp ENTER>;
             key-positions = <11 12 13>;
@@ -150,6 +151,13 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
             layers = <0 1>;
+        };
+/*
+
+        right_alt {
+            bindings = <&kp RALT>;
+            key-positions = <33 34>;
+            layers = <0>;
         };
 
 //      -------- control ---------
@@ -278,10 +286,10 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 base { // ColemakDHm
             bindings = <
             &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
-            &hml LGUI A  &hml LALT R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr LALT I   &hmr RGUI O
+            &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
 &lt 5 TAB   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     &kp TAB
-                                       &kp LCTRL         &mo 4            &lt 1 SPACE        &kp RSHFT     &kp RALT           &sl 5
-            >;
+                                       &mo 1             &mo 4            &kp SPACE          &sk RSHFT     &mo 1             &sl 5
+            >;  
         };
 
 
