@@ -152,7 +152,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <16 17 18>;
             layers = <0 1>;
         };
-/*
+*/
 
         right_alt {
             bindings = <&kp RALT>;
