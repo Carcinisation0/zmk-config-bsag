@@ -337,23 +337,13 @@ nav {
 // ----- experimental -----
 
 // 5
-alpha1 {
+base2 { // ColemakDHm
             bindings = <
-        ___          &kp B         &kp M          &kp G         ___            ___          &kp L              &kp O            &kp U            ___
-        &hml LALT D  &hml LGUI N   &hml LCTRL S   &hml LSHFT T  ___            ___          &hmr RSHFT R       &hmr RCTRL E     &hmr RGUI A      &hmr LALT I
-___     ___          &kp F         &kp C          &kp P         ___            ___          &kp H              &kp COMMA        &kp DOT          ___            &to 0 
-                                   ___            &mo 1         &lt 4 space    &sk RSHFT    &sl 6              ___
-            >;
-        };
-
-// 6
-alpha2 {
-            bindings = <
-        ___          &kp Q         ___            &kp K          ___            ___          &kp APOS           &kp DOUBLE_QUOTES  &kp Y            ___
-        &hml LALT Y  &hml LGUI Z   &hml LCTRL X   &hml LSHFT W   ___            ___          &hmr RSHFT N       &hmr RCTRL E       &hmr RGUI I      &hmr LALT O
-___     ___          &kp J         ___            &kp V          ___            ___          &kp H              &kp COMMA          &kp FSLH         ___            &to 0 
-                                   ___            &kp RALT       &sk RSHFT      &sk RSHFT    &kp space          ___
-            >;
+            &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
+            &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
+&lt 5 TAB   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     &kp TAB
+                                       &mo 1             &mo 4            &kp SPACE          &sk RSHFT     &mo 1             &sl 5
+            >;  
         };
 
 
