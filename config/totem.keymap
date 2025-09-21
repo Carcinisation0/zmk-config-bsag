@@ -296,7 +296,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <alpha1>;
         };
 
-
+/*
         q {
             bindings = <&kp Q>;
             key-positions = <11 12>;
@@ -308,7 +308,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <17 18>;
             layers = <alpha1>;
         };
-
+*/
 
 // control
 
