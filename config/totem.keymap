@@ -333,9 +333,10 @@ nav {
             >;
         };  
 
-/*
-// experimental
 
+// ----- experimental -----
+
+// 5
 alpha1 {
             bindings = <
         ___          &kp B         &kp M          &kp G         ___            ___          &kp L              &kp O            &kp U            ___
@@ -345,7 +346,7 @@ ___     ___          &kp F         &kp C          &kp P         ___            _
             >;
         };
 
-
+// 6
 alpha2 {
             bindings = <
         ___          &kp Q         ___            &kp K          ___            ___          &kp APOS           &kp DOUBLE_QUOTES  &kp Y            ___
@@ -354,7 +355,7 @@ ___     ___          &kp J         ___            &kp V          ___            
                                    ___            &kp RALT       &sk RSHFT      &sk RSHFT    &kp space          ___
             >;
         };
-*/
+
 
 
 
