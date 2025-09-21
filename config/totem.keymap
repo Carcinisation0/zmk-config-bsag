@@ -378,7 +378,7 @@ gameplus {
 // 4
 nav {
             bindings = <
-         &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    ___          &kp PAGE_DOWN   &none              &kp PAGE_UP    ___
+         &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    ___          &kp PAGE_DOWN   &to 6              &kp PAGE_UP    ___
          &kp ENTER         &kp LEFT      &kp DOWN          &kp RIGHT      &kp PAGE_UP          ___          &kp C_VOL_DN    &kp C_PLAY_PAUSE   &kp C_VOL_UP   ___
 &kp ESC  &kp LEFT_CONTROL  &kp ESC       &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        ___          &kp HOME        &kp LS(ENTER)      &kp END        ___   &to 2
                                          &trans            &trans         &trans               &kp RSHIFT   &kp KP_N0       &trans
@@ -404,9 +404,9 @@ ___   ___          &kp C         &kp D             &kp V            ___         
 // 6
 alpha2 {
             bindings = <
-      ___           &kp BSLH      &kp PIPE          &kp EXCL         &none        &none       &kp QUESTION   &kp LS(SEMI)     &kp SEMI      ___
-      &hml LALT Q   &hml LGUI X   &hml LCTRL B      &hml LSHFT G     ___          ___         &hmr RSHFT Z   &hmr RCTRL J     &hmr RGUI M   &hmr RALT K
-___   ___           &kp SLASH     &kp UNDER         &kp GRAVE        &none        &none       &kp TILDE      &kp LS(COMMA)    &kp LS(DOT)   ___           &to 0
+      ___           &kp BSLH      &kp PIPE          &kp EXCL        ___          ___         &kp QUESTION   &kp LS(SEMI)     &kp SEMI      ___
+      &hml LALT Q   &hml LGUI X   &hml LCTRL B      &hml LSHFT G    ___          ___         &hmr RSHFT Z   &hmr RCTRL J     &hmr RGUI M   &hmr RALT K
+___   ___           &kp SLASH     &kp UNDER         &kp GRAVE       ___          ___         &kp TILDE      &kp LS(COMMA)    &kp LS(DOT)   ___           &to 0
                                  ___               &kp RALT         &kp SPACE    &sk RSHFT   &mo 1          ___
             >;  
         };
