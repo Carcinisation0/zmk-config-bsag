@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-#define TODO ___
+//#define TODO ___
 #define ___ &none
 
 #define base 0
@@ -283,6 +283,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
     keymap {
         compatible = "zmk,keymap";
 
+// 0
 base { // ColemakDHm
             bindings = <
             &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
@@ -292,7 +293,7 @@ base { // ColemakDHm
             >;  
         };
 
-
+// 1
 sym { 
             bindings = <
          ___              &kp N9       &kp N8     &kp N7     ___        ___       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
@@ -302,7 +303,7 @@ sym {
             >; 
         }; 
 
-
+// 2
 game {
             bindings = <
          &kp TAB           &kp Q  &kp W   &kp E  &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
@@ -312,17 +313,17 @@ game {
             >;
         };
 
-
+// 3
 gameplus {
             bindings = <
-        &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
+        &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp N4          &trans  &trans  &trans  &trans  &trans
         &kp LEFT_ALT  &kp SLASH     &kp K   &kp Y   &kp V           &trans  &trans  &trans  &trans  &trans
 &kp F3  &kp L         &kp I         &kp T   &kp N5  &kp N6          &trans  &trans  &trans  &trans  &trans  &trans
                                     &kp J   &kp G   &kp M           &trans  &trans  &trans
             >;
         };
 
-
+// 4
 nav {
             bindings = <
          &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    ___       &kp LG(L)     &to 5            &kp KP_N9  ___
@@ -332,7 +333,7 @@ nav {
             >;
         };  
 
-
+/*
 // experimental
 
 alpha1 {
@@ -353,7 +354,7 @@ ___     ___          &kp J         ___            &kp V          ___            
                                    ___            &kp RALT       &sk RSHFT      &sk RSHFT    &kp space          ___
             >;
         };
-
+*/
 
 
 
