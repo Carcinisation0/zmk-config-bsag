@@ -7,7 +7,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define XXX &none
+#define --- &none
 #define TODO ___
 #define ___ &trans
 
@@ -295,9 +295,9 @@ base { // ColemakDHm
 
 sym { 
             bindings = <
-         &kp KP_MULTIPLY  &kp N9       &kp N8     &kp N7         &kp PLUS   &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
-         &kp N3           &kp N2       &kp N1     &kp N0         &kp MINUS  &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
-&none    &kp SLASH        &kp N6       &kp N5     &kp N4         &kp EQUAL  &none     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
+         &kp KP_MULTIPLY  &kp N9       &kp N8     &kp N7     ---        ---       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE
+         &kp N3           &kp N2       &kp N1     &kp N0     ---        ---       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL
+&none    &kp SLASH        &kp N6       &kp N5     &kp N4     ---        ---       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &trans
                                      &none        &kp RSHFT  &none      &kp RSHFT     &none                 &none
             >; 
         }; 
@@ -332,24 +332,30 @@ nav {
             >;
         };  
 
-funkcje {
+
+// experimental
+
+alpha1 {
             bindings = <
-        &bt BT_PRV    &bt BT_NXT    &trans          &kp F11           &trans      &trans    &kp F12            &trans          &trans       &trans
-        &kp F1        &kp F2        &kp F3          &kp F4            &kp F5      &kp F6    &kp F7             &kp F8           &kp F9        &kp F10
-&trans  &trans        &trans        &trans          &kp CAPS          &trans      &trans    &kp CAPS           &trans           &trans        &trans         &trans
-                                    &trans          &trans            &trans      &trans    &trans             &trans
+        ---          &kp B         &kp M          &kp G         ---            ---          &kp L              &kp O            &kp U            ---
+        &hml LALT D  &hml LGUI N   &hml LCTRL S   &hml LSHFT T  ---            ---          &hmr RSHFT R       &hmr RCTRL E     &hmr RGUI A      &hmr LALT I
+---     ---          &kp F         &kp C          &kp P         ---            ---          &kp H              &kp COMMA        &kp DOT          ---            &to 0 
+                                   ---            &mo 1         &lt 4 space    &sk RSHFT    &sl 6              ---
             >;
         };
 
 
- mouse {
+alpha2 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &to 0           &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &mkp MB4        &mkp MB3        &mkp MB5         &trans           &kp ESC
-                        &trans  &trans  &trans    &mkp LCLK       &mkp RCLK       &trans
+        ---          &kp Q         ---            &kp K          ---            ---          &kp APOS           &kp DOUBLE_QUOTES  &kp Y            ---
+        &hml LALT Y  &hml LGUI Z   &hml LCTRL X   &hml LSHFT W   ---            ---          &hmr RSHFT N       &hmr RCTRL E       &hmr RGUI I      &hmr LALT O
+---     ---          &kp J         ---            &kp V          ---            ---          &kp H              &kp COMMA          &kp FSLH         ---            &to 0 
+                                   ---            &kp RALT       &sk RSHFT      &sk RSHFT    &kp space          ---
             >;
         };
+
+
+
 
 
     };
