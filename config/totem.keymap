@@ -341,10 +341,10 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 // 0
 base { // ColemakDHm
             bindings = <
-            &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
-            &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
-&lt 5 TAB   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     &kp TAB
-                                       &mo num             &mo 4            &lt 1 SPACE        &sk RSHFT     &kp RALT           &sl 5
+      &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
+      &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
+___   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     ___
+                                 ___               &mo nav          &lt num SPACE      &sk RSHFT     &kp RALT           ___
             >;  
         };
 
@@ -354,10 +354,10 @@ base { // ColemakDHm
 // 1
 alpha1 {
             bindings = <
-      ___          &kp W         &hml F3 F         &hml F4 P        ___            ___         &hml F7 L          &hml F8 U        &hml F9 Y     ___
-      &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     ___            ___         &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
-___   ___          &kp C         &kp D             &kp V            ___            ___         &kp H              &kp COMMA        &kp DOT       ___           &to 0
-                                 ___               &sl 4            &lt 1 SPACE    &sk RSHFT   &sl 6              ___
+      ___          &kp W         &hml F3 F         &hml F4 P        ___             ___         &hml F7 L          &hml F8 U        &hml F9 Y     ___
+      &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     ___             ___         &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
+___   ___          &kp C         &kp D             &kp V            ___             ___         &kp H              &kp COMMA        &kp DOT       ___           &to 0
+                                 ___               &sl nav          &lt num SPACE   &sk RSHFT   &sl alpha2         ___
             >;  
         };
 
@@ -369,7 +369,7 @@ alpha2 {
       ___           &kp BSLH      &kp PIPE          &kp EXCL        ___          ___         &kp QUESTION   &kp LS(SEMI)     &kp SEMI      ___
       &hml LALT Q   &hml LGUI X   &hml LCTRL B      &hml LSHFT G    ___          ___         &hmr RSHFT Z   &hmr RCTRL J     &hmr RGUI M   &hmr RALT K
 ___   ___           &kp SLASH     &kp UNDER         &kp GRAVE       ___          ___         &kp TILDE      &kp LS(COMMA)    &kp LS(DOT)   ___           &to 0
-                                 ___               &kp RALT         &kp SPACE    &sk RSHFT   &mo 1          ___
+                                 ___                &kp RALT        &kp SPACE    &sk RSHFT   &mo num          ___
             >;  
         };
 //____________________________________________________________________________________________________________________________________________________________________________
@@ -389,10 +389,10 @@ num {
 // 4
 game {
             bindings = <
-         &kp TAB           &kp Q  &kp W   &kp E  &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
-         &kp RIGHT_SHIFT   &kp A  &kp S   &kp D  &sl 3        &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER
-&kp ESC  &kp LEFT_CONTROL  &kp Z  &kp X   &kp C  &kp F        &trans  &trans          &trans        &trans     &trans     &to 0
-                                  &mo 0  &mo 4  &kp SPACE     &to 0   &to 0           &to 0
+         &kp TAB           &kp Q  &kp W   &kp E   &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
+         &kp RIGHT_SHIFT   &kp A  &kp S   &kp D   &sl 3        &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER
+&kp ESC  &kp LEFT_CONTROL  &kp Z  &kp X   &kp C   &kp F        &trans  &trans          &trans        &trans     &trans     &to 0
+                                  &mo 0   &mo nav &kp SPACE    &to 0   &to 0           &to 0
             >;
         };
 
@@ -409,9 +409,9 @@ gameplus {
 // 6
 nav {
             bindings = <
-         &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    ___          &kp PAGE_DOWN   &to 5              &kp PAGE_UP    ___
+         &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    ___          &kp PAGE_DOWN   &to alpha1         &kp PAGE_UP    ___
          &kp ENTER         &kp LEFT      &kp DOWN          &kp RIGHT      &kp PAGE_UP          ___          &kp C_VOL_DN    &kp C_PLAY_PAUSE   &kp C_VOL_UP   ___
-&kp ESC  &kp LEFT_CONTROL  &kp ESC       &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        ___          &kp HOME        &kp LS(ENTER)      &kp END        ___   &to 2
+&kp ESC  &kp LEFT_CONTROL  &kp ESC       &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        ___          &kp HOME        &kp LS(ENTER)      &kp END        ___   &to game
                                          &trans            &trans         &trans               &kp RSHIFT   &kp KP_N0       &trans
             >;
         };  
