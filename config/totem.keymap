@@ -341,7 +341,7 @@ base { // ColemakDHm
             &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
             &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
 &lt 5 TAB   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     &kp TAB
-                                       &mo 1             &mo 4            &lt 1 SPACE        &sk RSHFT     &mo 1             &sl 5
+                                       &mo 1             &mo 4            &lt 1 SPACE        &sk RSHFT     &kp RALT           &sl 5
             >;  
         };
 
