@@ -12,12 +12,15 @@
 #define ___ &none
 
 #define base 0
-#define sym 1
-#define game 2
-#define gameplus 3
-#define nav 4
-#define funkcje 5
-#define mouse 6
+
+#define alpha1 1
+#define alpha2 2
+
+#define num 3
+#define game 4
+#define gameplus 5
+#define nav 6
+
 
 
 // ---- mouse ----
