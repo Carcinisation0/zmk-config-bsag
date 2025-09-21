@@ -347,7 +347,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <10 11>;
             layers = <nav>;
         };
-
+/*
 // bspc
 
         bspc21 {
@@ -373,7 +373,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <6 7 8>;
             layers = <alpha1>;
         };
-
+*/
 
     };
 
