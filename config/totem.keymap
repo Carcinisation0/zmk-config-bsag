@@ -402,7 +402,7 @@ alpha1 {
       &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     ___             ___         &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
 ___   ___          &kp C         &kp D             &kp V            ___             ___         &kp H              &kp COMMA        &kp DOT       ___           &to 0
                                  ___               &sl nav          &lt num SPACE   &sk RSHFT   &sl alpha2         ___
-            >;  
+            >;
         };
 
 // Q X B G Z J M K
@@ -411,7 +411,7 @@ ___   ___          &kp C         &kp D             &kp V            ___         
 alpha2 {
             bindings = <
       ___           &kp BSLH      &kp PIPE          &kp EXCL        ___          ___         &kp QUESTION   &kp LS(SEMI)     &kp SEMI      ___
-      &hml LALT Q   &hml LGUI X   &hml LCTRL B      &hml LSHFT G    ___          ___         &hmr RSHFT Z   &hmr RCTRL J     &hmr RGUI M   &hmr RALT K
+      &hml LALT Q   &hml LGUI Z   &hml LCTRL B      &hml LSHFT G    ___          ___         &hmr RSHFT M   &hmr RCTRL J     &hmr RGUI K   &hmr RALT X
 ___   ___           &kp SLASH     &kp UNDER         &kp GRAVE       ___          ___         &kp TILDE      &kp LS(COMMA)    &kp LS(DOT)   ___           &to 0
                                  ___                &kp RALT        &kp SPACE    &sk RSHFT   &mo num          ___
             >;  
