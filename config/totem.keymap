@@ -434,7 +434,7 @@ num {
 game {
             bindings = <
          &kp TAB           &kp Q  &kp W   &kp E   &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
-         &kp RIGHT_SHIFT   &kp A  &kp S   &kp D   &sl 3        &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER
+         &kp RIGHT_SHIFT   &kp A  &kp S   &kp D   &sl gameplus &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER
 &kp ESC  &kp LEFT_CONTROL  &kp Z  &kp X   &kp C   &kp F        &trans  &trans          &trans        &trans     &trans     &to 0
                                   &mo 0   &mo nav &kp SPACE    &to 0   &to 0           &to 0
             >;
