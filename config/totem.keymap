@@ -386,8 +386,8 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 base { // ColemakDHm
             bindings = <
       &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
-      &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &hml F11 G         &hml F12 M    &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
-___   &kp X        &kp C         &kp D             &kp V            &kp Z              &kp K         &kp H              &kp COMMA        &kp DOT       &kp FSLH     ___
+      &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
+___   &kp X        &kp C         &kp D             &hml F11         &kp Z              &kp K         &hml F12 H         &kp COMMA        &kp DOT       &kp FSLH     ___
                                  ___               &mo nav          &lt num SPACE      &sk RSHFT     &kp RALT           ___
             >;  
         };
@@ -425,7 +425,7 @@ num {
             bindings = <
          ___              &kp N9       &kp N8     &kp N7     ___        ___         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
          &kp N3           &kp N2       &kp N1     &kp N0     ___        ___         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
-&none    ___              &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE  &trans
+___      ___              &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE  &trans
                                        &none      &kp RSHFT  &none      &kp RSHFT   &none                  &none
             >; 
         }; 
@@ -433,10 +433,10 @@ num {
 // 4
 game {
             bindings = <
-         &kp TAB           &kp Q  &kp W   &kp E   &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
-         &kp RIGHT_SHIFT   &kp A  &kp S   &kp D   &sl gameplus &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER
-&kp ESC  &kp LEFT_CONTROL  &kp Z  &kp X   &kp C   &kp F        &trans  &trans          &trans        &trans     &trans     &to 0
-                                  &mo 0   &mo nav &kp SPACE    &to 0   &to 0           &to 0
+         &kp TAB           &kp Q  &kp W    &kp E   &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
+         &kp LEFT_SHIFT    &kp A  &kp S    &kp D   &sl gameplus &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER
+___      &kp LEFT_CONTROL  &kp Z  &kp X    &kp C   &kp F        &trans  &trans          &trans        &trans     &trans     &to 0
+                                  &mo LALT &mo nav &kp SPACE    &to 0   &to 0           &to 0
             >;
         };
 
@@ -445,7 +445,7 @@ gameplus {
             bindings = <
         &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp N4          &trans  &trans  &trans  &trans  &trans
         &kp LEFT_ALT  &kp SLASH     &kp K   &kp Y   &kp V           &trans  &trans  &trans  &trans  &trans
-&kp F3  &kp L         &kp I         &kp T   &kp N5  &kp N6          &trans  &trans  &trans  &trans  &trans  &trans
+___     &kp L         &kp I         &kp T   &kp N5  &kp N6          &trans  &trans  &trans  &trans  &trans  &trans
                                     &kp J   &kp G   &kp M           &trans  &trans  &trans
             >;
         };
@@ -455,7 +455,7 @@ nav {
             bindings = <
          &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    ___          &kp PAGE_DOWN   &to alpha1         &kp PAGE_UP    ___
          &kp ENTER         &kp LEFT      &kp DOWN          &kp RIGHT      &kp PAGE_UP          ___          &kp C_VOL_DN    &kp C_PLAY_PAUSE   &kp C_VOL_UP   ___
-&kp ESC  &kp LEFT_CONTROL  &kp ESC       &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        ___          &kp LS(LC(TAB)) &kp LS(ENTER)      &kp LC(TAB)    ___   &to game
+___      &kp LEFT_CONTROL  &kp LALT      &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        ___          &kp LS(LC(TAB)) &kp LS(ENTER)      &kp LC(TAB)    ___   &to game
                                          &trans            &trans         &trans               &kp RSHIFT   &kp KP_N0       &trans
             >;
         };  
