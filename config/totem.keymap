@@ -387,7 +387,7 @@ base { // ColemakDHm
             bindings = <
       &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
       &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
-___   &kp X        &kp C         &kp D             &hml F11         &kp Z              &kp K         &hml F12 H         &kp COMMA        &kp DOT       &kp FSLH     ___
+___   &kp X        &kp C         &kp D             &hml F11 V       &kp Z              &kp K         &hml F12 H         &kp COMMA        &kp DOT       &kp FSLH     ___
                                  ___               &mo nav          &lt num SPACE      &sk RSHFT     &kp RALT           ___
             >;  
         };
