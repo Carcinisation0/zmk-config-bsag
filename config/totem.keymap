@@ -259,12 +259,12 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 //    ========== general  ==========
 
           fun_left {
-            bindings = <&sl fun>;
+            bindings = <&sl 7>;
             key-positions = <13 34>;
         };
 
         fun_right {
-            bindings = <&sl fun>;
+            bindings = <&sl 7>;
             key-positions = <35 16>;
         };
 
