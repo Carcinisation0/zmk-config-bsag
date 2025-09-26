@@ -322,8 +322,8 @@ num {
             bindings = <
          ___              &kp N9       &kp N8     &kp N7     ___        ___         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
          &kp N3           &kp N2       &kp N1     &kp N0     ___        ___         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
-___      ___              &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    &trans
-                                       &none      &kp RSHFT  &none      &kp RSHFT   &none                  &none
+___      ___              &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
+                                       ___        &trans     ___        &kp space   &kp RSHFT              ___
             >; 
         }; 
 
