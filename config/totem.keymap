@@ -293,11 +293,11 @@ ___   &kp X        &kp C         &kp D             &hml F11 V       &kp Z       
 //____________________________________________________________________________________________________________________________________________________________________________
 
 // 1
-alpha1 {
+alpha1 {  // dhorf mod
             bindings = <
-      ___          &kp W         &hml F3 F         &hml F4 P        ___             ___         &hml F7 L          &hml F8 U        &hml F9 Y     ___
-      &hml LALT A  &hml LGUI R   &hml LCTRL S      &hml LSHFT T     ___             ___         &hmr RSHFT N       &hmr RCTRL E     &hmr RGUI I   &hmr RALT O
-___   ___          &kp C         &kp D             &kp V            ___             ___         &kp H              &kp COMMA        &kp DOT       ___             &to 0
+      &hml F1 V    &hml F2 L     &hml F3 H         &hml F4 K        &hml F5 B       &hml F6 P   &hml F7 F          &hml F8 O        &hml F9 U     &hml F10 SEMI
+      &hml LGUI S  &hml LALT R   &hml LCTRL N      &hml LSHFT T     &kp W           &kp Y       &hmr RSHFT C       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
+___   &kp Z        &kp J         &kp M             &kp D            &kp Q           &kp X       &kp G              &kp COMMA        &kp DOT       &kp W           &to 0
                                  ___               &sl nav          &lt num SPACE   &sk RSHFT   &sl alpha2         ___
             >;
         };
@@ -320,9 +320,9 @@ ___   ___           &kp SLASH     &kp UNDER         &kp GRAVE       ___         
 // 3
 num { 
             bindings = <
-         ___              &kp N9       &kp N8     &kp N7     ___        ___         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
-         &kp N3           &kp N2       &kp N1     &kp N0     ___        ___         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
-___      ___              &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
+         &kp FSLH         &kp N9       &kp N8     &kp N7     ___        ___         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
+         &kp N3           &kp N2       &kp N1     &kp N0     &kp EQUAL  ___         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
+___      &kp MULT         &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
                                        ___        &trans     ___        &kp SPACE   &kp RSHFT              ___
             >; 
         }; 
