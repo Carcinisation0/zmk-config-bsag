@@ -322,7 +322,7 @@ num {
             bindings = <
          &kp FSLH         &kp N9       &kp N8     &kp N7     ___        ___         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
          &kp N3           &kp N2       &kp N1     &kp N0     &kp EQUAL  ___         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
-___      &kp MULT         &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
+___      &kp KP_MULTIPLY  &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
                                        ___        &trans     ___        &kp SPACE   &kp RSHFT              ___
             >; 
         }; 
