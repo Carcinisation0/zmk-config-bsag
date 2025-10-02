@@ -298,7 +298,7 @@ alpha1 {  // dhorf mod
       &hml F1 V    &hml F2 L     &hml F3 H         &hml F4 K        &hml F5 B       &hml F6 P   &hml F7 F          &hml F8 O        &hml F9 U     &hml F10 SEMI
       &hml LGUI S  &hml LALT R   &hml LCTRL N      &hml LSHFT T     &kp W           &kp Y       &hmr RSHFT C       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
 ___   &kp Z        &kp J         &kp M             &kp D            &kp Q           &kp X       &kp G              &kp COMMA        &kp DOT       &kp W           &to 0
-                                 ___               &sl nav          &lt num SPACE   &sk RSHFT   &sl alpha2         ___
+                                 &mo fun           &mo nav          &lt num SPACE   &sk RSHFT   &kp RALT           ___
             >;
         };
 
