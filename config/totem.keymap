@@ -293,11 +293,11 @@ ___   &kp X        &kp C         &kp D             &hml F11 V       &kp Z       
 //____________________________________________________________________________________________________________________________________________________________________________
 
 // 1
-alpha1 {  // dhorf mod
+alpha1 {  // focal
             bindings = <
-      &hml F1 V    &hml F2 L     &hml F3 H         &hml F4 K        &hml F5 B       &hml F6 P   &hml F7 F          &hml F8 O        &hml F9 U     &hml F10 SEMI
-      &hml LGUI S  &hml LALT R   &hml LCTRL N      &hml LSHFT T     &kp W           &kp Y       &hmr RSHFT C       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
-___   &kp Z        &kp J         &kp M             &kp D            &kp Q           &kp X       &kp G              &kp COMMA        &kp DOT       &kp W           &to 0
+      &hml F1 V    &hml F2 L     &hml F3 H         &hml F4 G        &hml F5 K       &hml F6 Q   &hml F7 F          &hml F8 O        &hml F9 U     &hml F10 J
+      &hml LGUI S  &hml LALT R   &hml LCTRL N      &hml LSHFT T     &kp B           &kp Y       &hmr RSHFT C       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
+___   &kp Z        &kp X         &kp M             &hml F11 D       &kp P           &kp SEMI    &hml F12 W         &kp COMMA        &kp DOT       &kp FSLH      &to 0
                                  &mo fun           &mo nav          &lt num SPACE   &sk RSHFT   &kp RALT           ___
             >;
         };
