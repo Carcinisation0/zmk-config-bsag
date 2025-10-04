@@ -125,19 +125,19 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         apos {
             bindings = <&kp APOS>;
             key-positions = <6 7>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
         quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <8 7>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
         escp {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
 //      -------- control ---------
@@ -145,37 +145,37 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         ctrl_y {
             bindings = <&kp LC(Y)>;
             key-positions = <3 4>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
        ctrl_f {
             bindings = <&kp LC(F)>;
             key-positions = <1 2>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
         ctrl_z {
             bindings = <&kp LC(Z)>;
             key-positions = <13 14>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
         ctrl_c {
             bindings = <&kp LC(C)>;
             key-positions = <22 23>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
         ctrl_v {
             bindings = <&kp LC(V)>;
             key-positions = <23 24>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
         ctrl_x {
             bindings = <&kp LC(X)>;
             key-positions = <21 22>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
 //    ============ num  ============
@@ -261,13 +261,13 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
           fun_left {
             bindings = <&sl fun>;
             key-positions = <13 34>;
-            layers = <0>;
+            layers = <0 alpha1>;
         };
 
         fun_right {
             bindings = <&sl fun>;
             key-positions = <35 16>;
-            layers = <0>;
+            layers = <0> alpha1;
         };
 
 
