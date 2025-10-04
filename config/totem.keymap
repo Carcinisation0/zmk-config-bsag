@@ -267,7 +267,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         fun_right {
             bindings = <&sl fun>;
             key-positions = <35 16>;
-            layers = <0> alpha1;
+            layers = <0 alpha1>;
         };
 
 
