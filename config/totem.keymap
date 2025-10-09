@@ -280,13 +280,13 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         compatible = "zmk,keymap";
 
 // 0
-base { // ColemakDHm
+base { // focal
             bindings = <
-      &hml F1 Q    &hml F2 W     &hml F3 F         &hml F4 P        &hml F5 B          &hml F6 J     &hml F7 L          &hml F8 U        &hml F9 Y     &hml F10 SEMI
-      &hml LGUI A  &hml LALT R   &hml LCTRL S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RCTRL E     &hmr LALT I   &hmr RGUI O
-___   &kp X        &kp C         &kp D             &hml F11 V       &kp Z              &kp K         &hml F12 H         &kp COMMA        &kp DOT       &kp FSLH       ___
-                                 &mo fun           &mo nav          &lt num SPACE      &sk RSHFT     &kp RALT           ___
-            >;  
+      &hml F1 V    &hml F2 L     &hml F3 H         &hml F4 G        &hml F5 P       &hml F6 Q   &hml F7 F          &hml F8 O        &hml F9 U     &hml F10 J
+      &hml LGUI S  &hml LALT R   &hml LCTRL N      &hml LSHFT T     &kp B           &kp Y       &hmr RSHFT C       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
+___   &kp Z        &kp X         &kp M             &hml F11 D       &kp K           &kp SEMI    &hml F12 W         &kp COMMA        &kp DOT       &kp FSLH      ___
+                                 &mo fun           &mo nav          &lt num SPACE   &sk RSHFT   &kp RALT           ___
+            >; 
         };
 
 //    ======== experimental ========
