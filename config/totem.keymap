@@ -178,6 +178,12 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <0 alpha1>;
         };
 
+        ctrl_a {
+            bindings = <&kp LC(A)>;
+            key-positions = <10 11>;
+            layers = <0 alpha1>;
+        };
+
 //    ============ num  ============
 
         num_dot {
