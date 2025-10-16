@@ -303,7 +303,7 @@ alpha1 {  // gallium
             bindings = <
       &hml F1 B    &hml F2 L     &hml F3 D         &hml F4 C        &hml F5 V       &hml F6 J   &hml F7 Y          &hml F8 O        &hml F9 U     &hml F10 SEMI
       &hml LGUI N  &hml LALT R   &hml LCTRL T      &hml LSHFT S     &kp G           &kp P       &hmr RSHFT H       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
-___   &kp X        &kp Q         &kp M             &hml F11 W       &kp Z           &kp K       &hml F12 F         &kp COMMA        &kp DOT       &kp FSLH      &to 0
+___   &kp X        &kp Z         &kp M             &hml F11 W       &kp Q           &kp K       &hml F12 F         &kp COMMA        &kp DOT       &kp FSLH      &to 0
                                  &mo fun           &mo nav          &lt num SPACE   &sk RSHFT   &kp RALT           ___
             >;
         };
