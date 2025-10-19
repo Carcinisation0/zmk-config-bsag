@@ -288,9 +288,9 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
 // 0
 base { // focal
             bindings = <
-      &hml F1 V    &hml F2 L     &hml F3 H         &hml F4 G        &hml F5 P       &hml F6 Q   &hml F7 F          &hml F8 O        &hml F9 U     &hml F10 J
-      &hml LGUI S  &hml LALT R   &hml LCTRL N      &hml LSHFT T     &kp B           &kp Y       &hmr RSHFT C       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
-___   &kp Z        &kp X         &kp M             &hml F11 D       &kp K           &kp SEMI    &hml F12 W         &kp COMMA        &kp DOT       &kp FSLH      ___
+      &hml F1 B    &hml F2 L     &hml F3 D         &hml F4 C        &hml F5 V       &hml F6 J   &hml F7 Y          &hml F8 O        &hml F9 U     &hml F10 SEMI
+      &hml LGUI N  &hml LALT R   &hml LCTRL T      &hml LSHFT S     &kp G           &kp P       &hmr RSHFT H       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
+___   &kp X        &kp Z         &kp M             &hml F11 W       &kp Q           &kp K       &hml F12 F         &kp COMMA        &kp DOT       &kp FSLH      &to 0
                                  &mo fun           &mo nav          &lt num SPACE   &sk RSHFT   &kp RALT           ___
             >; 
         };
@@ -324,9 +324,9 @@ ___   ___           &kp SLASH     &kp UNDER         &kp GRAVE       ___         
 // 3
 num { 
             bindings = <
-         &kp FSLH         &kp N9       &kp N8     &kp N7     ___        ___         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
-         &kp N3           &kp N2       &kp N1     &kp N0     &kp EQUAL  ___         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
-___      &kp KP_MULTIPLY  &kp N6       &kp N5     &kp N4     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
+         &kp FSLH         &kp N7       &kp N8     &kp N9     ___        ___         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
+         &kp N0           &kp N1       &kp N2     &kp N3     &kp EQUAL  ___         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
+___      &kp KP_MULTIPLY  &kp N4       &kp N5     &kp N6     ___        ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
                                        ___        &trans     ___        &kp SPACE   &kp RSHFT              ___
             >; 
         }; 
