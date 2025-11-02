@@ -13,15 +13,11 @@
 #define ___ &none
 
 #define base 0
-
-#define alpha1 1
-#define alpha2 2
-
-#define num 3
-#define game 4
-#define gameplus 5
-#define nav 6
-#define fun 7
+#define num 1
+#define game 2
+#define gameplus 3
+#define nav 4
+#define fun 5
 
 
 
@@ -125,19 +121,19 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         apos {
             bindings = <&kp APOS>;
             key-positions = <6 7>;
-            layers = <0 alpha1>;
+            layers = <0>;
         };
 
         quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <8 7>;
-            layers = <0 alpha1>;
+            layers = <0>;
         };
 
         escp {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
-            layers = <0 alpha1>;
+            layers = <0>;
         };
 */
 //      -------- control ---------
@@ -145,43 +141,43 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         ctrl_y {
             bindings = <&kp LC(Y)>;
             key-positions = <3 4>;
-            layers = <nav alpha1>;
+            layers = <nav>;
         };
 
        ctrl_f {
             bindings = <&kp LC(F)>;
             key-positions = <1 2>;
-            layers = <nav alpha1>;
+            layers = <nav>;
         };
 
         ctrl_z {
             bindings = <&kp LC(Z)>;
             key-positions = <13 14>;
-            layers = <nav alpha1>;
+            layers = <nav>;
         };
 
         ctrl_c {
             bindings = <&kp LC(C)>;
             key-positions = <22 23>;
-            layers = <nav alpha1>;
+            layers = <nav>;
         };
 
         ctrl_v {
             bindings = <&kp LC(V)>;
             key-positions = <23 24>;
-            layers = <nav alpha1>;
+            layers = <nav>;
         };
 
         ctrl_x {
             bindings = <&kp LC(X)>;
             key-positions = <21 22>;
-            layers = <nav alpha1>;
+            layers = <nav>;
         };
 
         ctrl_a {
             bindings = <&kp LC(A)>;
             key-positions = <24 25>;
-            layers = <nav alpha1>;
+            layers = <nav>;
         };
 
 //    ============ num  ============
@@ -269,19 +265,19 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
           fun_left {
             bindings = <&sl fun>;
             key-positions = <13 34>;
-            layers = <0 alpha1>;
+            layers = <0>;
         };
 
         fun_right {
             bindings = <&sl fun>;
             key-positions = <35 16>;
-            layers = <0 alpha1>;
+            layers = <0>;
         };
 
         raltt {
             bindings = <&sk RALT>;
             key-positions = <33 36>;
-            layers = <0 alpha1>;
+            layers = <0>;
         };
 
 
@@ -298,37 +294,13 @@ base { // focal
       &hml F1 B    &hml F2 L     &hml F3 D         &hml F4 C        &hml F5 V       &hml F6 J   &hml F7 Y          &hml F8 O        &hml F9 U     &hml F10 SEMI
       &hml LGUI N  &hml LALT R   &hml LCTRL T      &hml LSHFT S     &kp G           &kp P       &hmr RSHFT H       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
 ___   &kp X        &kp Z         &kp M             &hml F11 W       &kp Q           &kp K       &hml F12 F         &kp COMMA        &kp DOT       &kp FSLH      &to 0
-                                 &mo num           &mo nav          &kp SPACE       &kp RSHIFT  &mo num            &kp RALT
+                                 &mo num           &kp SPACE        &mo nav         &kp RSHIFT  &kp RALT           &mo fun
+
+                                 //&mo num           &mo nav          &kp SPACE       &kp RSHIFT  &mo num            &kp RALT
             >; 
         };
 
-//    ======== experimental ========
-//____________________________________________________________________________________________________________________________________________________________________________
-
 // 1
-alpha1 {  // gallium
-            bindings = <
-      &hml F1 B    &hml F2 L     &hml F3 D         &hml F4 C        &hml F5 V       &hml F6 J   &hml F7 Y          &hml F8 O        &hml F9 U     &hml F10 SEMI
-      &hml LGUI N  &hml LALT R   &hml LCTRL T      &hml LSHFT S     &kp G           &kp P       &hmr RSHFT H       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
-___   &kp X        &kp Z         &kp M             &hml F11 W       &kp Q           &kp K       &hml F12 F         &kp COMMA        &kp DOT       &kp FSLH      &to 0
-                                 &mo fun           &mo nav          &lt num SPACE   &sk RSHFT   &kp RALT           ___
-            >;
-        };
-
-// 2
-alpha2 {
-            bindings = <
-      ___           &kp BSLH      &kp PIPE          &kp EXCL        ___          ___         &kp QUESTION   &kp LS(SEMI)     &kp SEMI      ___
-      &hml LALT Q   &hml LGUI Z   &hml LCTRL B      &hml LSHFT G    ___          ___         &hmr RSHFT M   &hmr RCTRL J     &hmr RGUI K   &hmr RALT X
-___   ___           &kp SLASH     &kp UNDER         &kp GRAVE       ___          ___         &kp TILDE      &kp LS(COMMA)    &kp LS(DOT)   ___             &to 0
-                                 ___                &kp RALT        &kp SPACE    &sk RSHFT   &mo num          ___
-            >;  
-        };
-//____________________________________________________________________________________________________________________________________________________________________________
-
-
-
-// 3
 num { 
             bindings = <
          &kp N6           &kp N7           &kp N8     &kp N9   &kp MINUS    &kp DOUBLE_QUOTES &kp LEFT_BRACKET &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
@@ -338,7 +310,7 @@ ___      &kp FSLH         &kp KP_MULTIPLY  &kp N0     &kp N5   &kp EQUAL    ___ 
             >; 
         }; 
 
-// 4
+// 2
 game {
             bindings = <
          &kp TAB           &kp Q  &kp W    &kp E   &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans
@@ -348,7 +320,7 @@ ___      &kp LEFT_CONTROL  &kp Z  &kp X    &kp C   &kp F        &trans  &trans  
             >;
         };
 
-// 5
+// 3
 gameplus {
             bindings = <
         &kp F5        &kp NUMBER_1  &kp N2  &kp N3  &kp N4          &trans  &trans  &trans  &trans  &trans
@@ -358,7 +330,7 @@ ___     &kp L         &kp I         &kp T   &kp N5  &kp N6          &trans  &tra
             >;
         };
 
-// 6
+// 4
 nav {
             bindings = <
          &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    ___          &kp PAGE_DOWN   &to alpha1         &kp PAGE_UP    ___
@@ -368,7 +340,7 @@ ___      &kp LEFT_CONTROL  &kp LALT      &kp C_PLAY_PAUSE  &kp TAB        &kp PA
             >;
         }; 
 
-// 7
+// 5
 fun {
             bindings = <
          &out OUT_USB      &out OUT_BLE  &bt BT_PRV        &kp F11        &bt BT_NXT           ___          &kp F12         ___                ___            ___
