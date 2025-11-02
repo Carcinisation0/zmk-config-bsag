@@ -198,6 +198,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <num>;
         };
 
+/*
         num_plus {
             bindings = <&kp PLUS>;
             key-positions = <12 13>;
@@ -221,6 +222,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <22 23>;
             layers = <num>;
         };
+*/
 
 //    ============ nav  ============
 
