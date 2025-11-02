@@ -294,7 +294,7 @@ base { // gallium
       &hml F1 B    &hml F2 L     &hml F3 D         &hml F4 C        &hml F5 V       &hml F6 J   &hml F7 Y          &hml F8 O        &hml F9 U     &hml F10 SEMI
       &hml LGUI N  &hml LALT R   &hml LCTRL T      &hml LSHFT S     &kp G           &kp P       &hmr RSHFT H       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
 ___   &kp X        &kp Z         &kp M             &hml F11 W       &kp Q           &kp K       &hml F12 F         &kp COMMA        &kp DOT       &kp FSLH       ___
-                                 &mo num           &kp SPACE        &mo nav         &kp RSHFT   &kp RALT           &mo fun
+                                 &mo fun           &mo nav          &lt num space   &kp RSHFT   &kp RALT           &mo num
 
                               // &mo num           &mo nav          &kp SPACE       &kp RSHIFT  &mo num            &kp RALT
             >; 
