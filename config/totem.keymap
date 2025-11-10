@@ -274,9 +274,9 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <0>;
         };
 
-        raltt {
+        right_ralt {
             bindings = <&sk RALT>;
-            key-positions = <33 36>;
+            key-positions = <35 36>;
             layers = <0>;
         };
 
@@ -305,7 +305,7 @@ num {
             bindings = <
          &kp N6           &kp N7           &kp N8     &kp N9   &kp MINUS    &kp DOUBLE_QUOTES &kp LEFT_BRACKET &kp RIGHT_BRACKET       &kp BACKSLASH   &kp PIPE
          &kp N1           &kp N2           &kp N3     &kp N4   &kp PLUS     &kp APOS    &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp UNDER       &kp EQUAL
-___      &kp FSLH         &kp KP_MULTIPLY  &kp N5     &kp N0   &kp EQUAL    ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
+___      &kp FSLH         &kp N5  &kp KP_MULTIPLY     &kp N0   &kp EQUAL    ___         &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp GRAVE       &kp TILDE    ___
                                            ___        &kp RSHFT &kp SPACE  &kp SPACE   &kp RSHFT              ___
             >; 
         }; 
