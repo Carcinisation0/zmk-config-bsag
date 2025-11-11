@@ -274,6 +274,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             layers = <0>;
         };
 
+/*
         ralt_rh {
             bindings = <&sk RALT>;
             key-positions = <35 36>;
@@ -291,7 +292,7 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
             key-positions = <33 34>;
             layers = <0>;
         };
-
+*/
 
 
     };
@@ -307,9 +308,9 @@ base { // gallium
       &hml F1 B    &hml F2 L     &hml F3 D         &hml F4 C        &hml F5 V       &hml F6 J   &hml F7 Y          &hml F8 O        &hml F9 U     &hml F10 SEMI
       &hml LGUI N  &hml LALT R   &hml LCTRL T      &hml LSHFT S     &kp G           &kp P       &hmr RSHFT H       &hmr RCTRL A     &hmr LALT E   &hmr RGUI I
 ___   &kp X        &kp Z         &kp M             &hml F11 W       &kp Q           &kp K       &hml F12 F         &kp COMMA        &kp DOT       &kp FSLH       ___
-                                 &mo num           &mo nav          &kp SPACE       &sk RSHFT   &mo num            &mo fun
+                                 &mo num           &mo nav          &mt RALT SPACE  &sk RSHFT   &mo num            &mo fun
 
-                              // &mo num           &mo nav          &kp SPACE       &kp RSHIFT  &mo num            &kp RALT
+                              // &mo num           &mo nav          &mt  SPACE       &kp RSHFT  &mo num            &kp RALT
             >; 
         };
 
