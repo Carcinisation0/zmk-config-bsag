@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MIT
 
 if SHIELD_TOTEM_LEFT
-
 config ZMK_KEYBOARD_NAME
+bool
     default "TOTEM"
     
 config ZMK_SPLIT_ROLE_CENTRAL
