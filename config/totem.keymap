@@ -75,8 +75,8 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
             bindings = <
 &kp W         &kp L         &kp Y          &kp P          &kp B              &kp Z            &kp F            &kp O            &kp U          &kp SEMI
 &hml LGUI C   &hml LALT R   &hml LSHFT S   &hml LCTRL T   &kp G              &kp M            &hmr RCTRL N     &hmr RSHFT E     &hmr LALT I    &hmr RGUI A
-&kp ENTER     &kp K         &kp J          &hml MEH V     &kp D    &kp Q     &kp X   &kp H    &hmr MEH COMMA   &kp PERIOD       &kp SLASH      &kp BACKSPACE
-                            &mo LSHFT      &mo NAV        &lt NUM SPACE      &mt RSHFT SPACE  &kp RALT         &mo FUN
+&kp ENTER     &kp K         &kp J          &hml MEH V     &kp D    &kp Q     &kp X   &kp H    &hmr MEH COMMA   &kp PERIOD       &kp SLASH      &kp ENTER
+                            &mo FUN        &mo NAV        &lt NUM SPACE      &mt RSHFT SPACE  &kp RALT         &mo FUN
             >;
         };
 
@@ -85,7 +85,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
             bindings = <
 &kp N6        &kp N7           &kp N8     &kp N9    &kp N0                  &kp SEMI   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp PIPE
 &kp N1        &kp N2           &kp N3     &kp N4    &kp N5                  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp EQUAL
-&kp EQUAL     &kp SLASH        &kp KP_MULTIPLY  &kp MINUS  &kp PLUS  &none  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE   ___
+&kp EQUAL     &kp SLASH        &kp KP_MULTIPLY  &kp MINUS  &kp PLUS  &none  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE   &kp ENTER
                                ___        ___       ___                     ___        ___                   ___
             >;
         };
@@ -95,7 +95,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
             bindings = <
 &kp TAB       &kp Q         &kp W      &kp E     &kp R                      &kp TILDE  &none        &kp UP    &none          &none
 &kp LSHIFT    &kp A         &kp S      &kp D     &sl GPLUS                  &kp LG(G)  &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER
-&kp N3        &kp LCTRL     &kp Z      &kp X     &kp C     &kp F            &none      &kp PAGE_UP  &none     &kp PAGE_DOWN  &none     &to BASE
+&kp N2        &kp LCTRL     &kp Z      &kp X     &kp C     &kp F            &none      &kp PAGE_UP  &none     &kp PAGE_DOWN  &none     &to BASE
                             &kp LALT   &mo NAV   &kp SPACE                  ___        ___          &to BASE
             >;
         };
@@ -106,7 +106,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
 &kp F5        &kp N1        &kp N2     &kp N3    &kp N4                     &none      &none  &none  &none  &none
 &kp LEFT_ALT  &kp SLASH     &kp K      &kp Y     &kp V                      &kp LG(G)  &none  &none  &none  &none
 &none         &kp L         &kp I      &kp T     &kp N5    &kp N6           &none      &none  &none  &none  &none  &none
-                            &none      &kp J     &kp G                      &kp M      &none  &none
+                            &none      &mo NAV     &kp SPACE                  &kp M      &none  &none
             >;
         };
 
@@ -116,15 +116,15 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
 &kp ESC       &kp DEL               &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)        &none          &kp LG(L)     &none         &none  &none
 &kp ENTER     &kp LEFT              &kp DOWN          &kp RIGHT      &kp PG_UP                &kp LS(ENTER)  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none
 &kp LEFT_GUI  &kp LEFT_CONTROL     &mt LEFT_ALT LG(TAB)  &kp C_PLAY_PAUSE  &kp TAB  &kp PAGE_DOWN  &none      &none         &none         &none  &none  &to GAME
-                                   ___               ___            ___                      ___            ___           ___
+                                   ___               ___            ___                       &kp SPACE       ___           ___
             >;
         };
 
         FUN {
             display-name = "fun";
             bindings = <
-&none         &rgb_ug RGB_COLOR_HSB(131,80,159)   &none            &none            &rgb_ug RGB_ON              &none  &kp F7  &kp F8  &kp F9  &kp F10
-&none         &rgb_ug RGB_COLOR_HSB(255,230,199)  &none            &none            &rgb_ug RGB_OFF             &none  &kp F4  &kp F5  &kp F6  &kp F11
+&kp LS(L)     &kp H   &kp A            &kp I            &kp E             &none  &kp F7  &kp F8  &kp F9  &kp F10
+&kp U         &kp O   &kp C_VOL_DN            &kp C_VOL_UP            &kp M             &none  &kp F4  &kp F5  &kp F6  &kp F11
 &out OUT_USB  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(128,100,10)  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &none  &kp F1  &kp F2  &kp F3  &kp F12  &none
                                ___              ___              ___                        ___    ___     ___
             >;
