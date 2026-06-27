@@ -106,7 +106,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
 &kp F5        &kp N1        &kp N2     &kp N3    &kp N4                     &none      &none  &none  &none  &none
 &kp LEFT_ALT  &kp SLASH     &kp K      &kp Y     &kp V                      &kp LG(G)  &none  &none  &none  &none
 &none         &kp L         &kp I      &kp T     &kp N5    &kp N6           &none      &none  &none  &none  &none  &none
-                            &none      &mo NAV     &kp SPACE                  &kp M      &none  &none
+                            &kp J      &mo G     &kp M                  &kp M      &none  &none
             >;
         };
 
