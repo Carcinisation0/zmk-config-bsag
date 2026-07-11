@@ -125,7 +125,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
             bindings = <
                &kp LS(L)     &kp H      &kp A            &kp I            &kp E             &none  &kp F7  &kp F8  &kp F9  &kp F10
                &kp LC(Z)     &kp LC(A)  &kp C_VOL_DN     &kp C_VOL_UP     &kp M             &none  &kp F4  &kp F5  &kp F6  &kp F11
-&kp LG(LS(S))  &kp LC(Y)     &kp LC(X)  &kp LC(C)        &kp LC(V)        &kp O             &none  &kp F1  &kp F2  &kp F3  &kp F12  &none
+&kp LG(LS(S))  &kp LC(Y)     &kp LC(X)  &kp LC(C)        &kp LC(V)        &kp LS(F3)        &none  &kp F1  &kp F2  &kp F3  &kp F12  &none
                                ___              ___             ___                        ___    ___     ___
             >;
         };
